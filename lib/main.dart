@@ -43,22 +43,14 @@ class _SheetPageState extends State<SheetPage> {
             ),
           ),
         ),
-        // centerTitle: false,
-        // title: Text(
-        //   'Back',
-        //   style: TextStyle(
-        //     color: Color(0xFFF6F5FA)
-        //   ),
-        // ),
       ),
       body: Padding(
         padding: EdgeInsets.all(15.0),
         child: Column(
-          // mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SizedBox(
-              height: 84.0,
+              height: 74.0,
             ),
             Image.asset(
               'assets/images/Ellipse 1.png',
@@ -77,7 +69,7 @@ class _SheetPageState extends State<SheetPage> {
               ],
             ),
             SizedBox(
-              height: 50.0,
+              height: 45.0,
             ),
             Column(
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -98,7 +90,7 @@ class _SheetPageState extends State<SheetPage> {
               ],
             ),
             SizedBox(
-              height: 70.0,
+              height: 65.0,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -128,7 +120,7 @@ class _SheetPageState extends State<SheetPage> {
               ],
             ),
             SizedBox(
-              height: 80.0,
+              height: 70.0,
             ),
             GestureDetector(
               onTap: () {
